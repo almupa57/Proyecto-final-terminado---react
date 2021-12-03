@@ -1,0 +1,133 @@
+* {
+  box-sizing: border-box;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+  max-width: 1400px;
+  min-width: 375px;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 0;
+  margin-bottom: 0;
+  color: #222222;
+}
+
+.banner {
+  position: relative;
+  height: 100vh;
+  width: 100%;
+  background: url("../assets/banner.jpg");
+  background-size: cover;
+  background-position: center center;
+}
+
+.banner-info {
+  position: absolute;
+  top: 50%;
+  left: 60%;
+  width: 40%;
+  color: #ececec;
+}
+
+.banner-btn {
+  width: 20%;
+  border-radius: 0;
+  background-color: #ececec;
+  border: none;
+  transition: all 0.3s;
+  cursor: pointer;
+}
+
+.banner-btn:hover {
+  background-color: white;
+}
+
+.services-section,
+.news-section,
+.team-section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 30px;
+}
+
+.news-section,
+.header-container {
+  background-color: #f7f7f7;
+}
+
+.news-section {
+  flex-wrap: wrap;
+  background-color: white;
+}
+
+.services-info {
+  padding: 20px;
+  margin-left: 20px;
+  margin-right: 20px;
+  text-align: center;
+  text-decoration: none;
+  background-color: white;
+  transition: box-shadow 0.1s ease-out;
+}
+
+.services-info:hover {
+  box-shadow: 0 7px 16px 0 rgba(0, 0, 0, 0.2), 0 1px 3px 0 rgba(0, 0, 0, 0.1);
+}
+
+.service-title {
+  font-size: 26px;
+  color: rgb(75, 75, 75);
+  margin-left: 20px;
+  margin-top: 20px;
+}
+
+.news-title {
+  font-size: 26px;
+  color: rgb(75, 75, 75);
+  margin-left: 20px;
+  margin-bottom: 20px;
+}
+
+.link {
+  text-decoration: none;
+  color: #222222;
+}
+
+.news-info {
+  width: 50%;
+  padding: 20px;
+}
+
+.news-header {
+  display: flex;
+  justify-content: space-around;
+}
+
+.news-info__title {
+  align-self: center;
+}
+
+.services-info__imagen {
+  border-radius: 50%;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.team-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 35%;
+  padding: 15px;
+}
+
+.team-info__imagen {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+  object-position: center;
+}
